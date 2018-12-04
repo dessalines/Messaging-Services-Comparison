@@ -1,6 +1,6 @@
 # Messaging Services Comparison
 
-This is a backup of a [google drive based comparison of messaging services and communications protocols](https://docs.google.com/spreadsheets/d/1-UlA4-tslROBDS9IqHalWVztqZo7uxlCeKPQ-8uoFOU/edit#gid=0), but you know, not actually hosted on a centralized service.
+This is a backup of a [google drive based comparison of messaging services and communications protocols](https://docs.google.com/spreadsheets/d/1-UlA4-tslROBDS9IqHalWVztqZo7uxlCeKPQ-8uoFOU/edit#gid=0), but you know, not hosted by google on their properietary spreadsheets. This is on both [github](https://github.com/dessalines/Messaging-Services-Comparison) and [gitlab](https://gitlab.com/dessalines/Messaging-Services-Comparison)
 
 This will be updated with new services as they come out.
 
