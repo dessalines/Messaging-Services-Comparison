@@ -93,15 +93,15 @@ This will be updated with new services as they come out.
 
 <!-- Footnotes -->
 
-[active]: /url "The creators of the app/protocol are continuing development/support of it.
+[active]: https://duckduckgo.com/?q=!w+active "The creators of the app/protocol are continuing development/support of it.
 For Open Source projects: has had a commit in the last year."
-[anonymous]: /url "If a phone number or other permanent-ish identifier is required for using the platform"
-[e2e_default]: /url "Are all chats end-to-end encrypted by default?"
-[e2e_audit]: /url "Has there been a third party audit on the overall end to end encryption protocol by a well known security research firm or academic institution."
-[aosp]: /url "This means there is an open source signed package available to a package manager that works on phones without Google Play. E.G. a reproducible F-Droid release."
-[mdm]: /url "Multi-device messaging: More than one device can be directly connected to a given account at the same time"
-[offline_messages]: /url "If the receiving party does not have the client open; can you send them a message?"
-[phoneless]: /url "Do you need an actual phone to use the software? e.g. do you need to receive an SMS to sign up?"
-[decentralized]: /url "Multiple people can run their own servers and communicate between them. E-mail is an example of a federated network where gmail users can communicate with fastmail users"
-[ietf]: /url "Is the protocol documented in a published IETF or other international standards body document?
+[anonymous]: https://duckduckgo.com/?q=!w+anonymous "If a phone number or other permanent-ish identifier is required for using the platform"
+[e2e_default]: https://duckduckgo.com/?q=!w+e2ee "Are all chats end-to-end encrypted by default?"
+[e2e_audit]: https://duckduckgo.com/?q=!w+e2ee "Has there been a third party audit on the overall end to end encryption protocol by a well known security research firm or academic institution."
+[aosp]: https://duckduckgo.com/?q=!w+aosp "This means there is an open source signed package available to a package manager that works on phones without Google Play. E.G. a reproducible F-Droid release."
+[mdm]: https://duckduckgo.com/?q=!w+messaging "Multi-device messaging: More than one device can be directly connected to a given account at the same time"
+[offline_messages]: https://duckduckgo.com/?q=!w+offline+messages "If the receiving party does not have the client open; can you send them a message?"
+[phoneless]: https://duckduckgo.com/?q=!w+phoneless "Do you need an actual phone to use the software? e.g. do you need to receive an SMS to sign up?"
+[decentralized]: https://duckduckgo.com/?q=!w+decentralized "Multiple people can run their own servers and communicate between them. E-mail is an example of a federated network where gmail users can communicate with fastmail users"
+[ietf]: https://duckduckgo.com/?q=!w+ietf "Is the protocol documented in a published IETF or other international standards body document?
 Usually this column is: Does an RFC exist for the protocol"
