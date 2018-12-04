@@ -6,7 +6,7 @@ This will be updated with new services as they come out.
 
 | | Security | | | | | | | | | | | | Compatibility | | | | | | | | | Features | | | | | | Sustainability | | | |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|   | [**Active**][active] | **TLS** | **Open Client** | **Open Server** | **On Premise** | **Anonymous** | **E2E Private** | **E2E Group** | **E2E Default** | **E2E Audit** | **FIDO1 / U2F** | **Desktop Web** | **Mobile Web** | **Android** | **Apple iOS** | **AOSP** | **Win** | **macOS** | **Linux** | **BSD** | **Terminal** | **MDM** | **Offline Messages** | **File Share** | **Audio Call** | **Video Call** | **Phoneless** | **Decentralized or Federated** | **Open Spec** | **IETF** | *Introduced* |
+|   | [**Active**][active] | **TLS** | **Open Client** | **Open Server** | **On Premise** | [**Anonymous**][anonymous] | **E2E Private** | **E2E Group** | [**E2E Default**][e2e_default] | [**E2E Audit**][e2e_audit] | **FIDO1 / U2F** | **Desktop Web** | **Mobile Web** | **Android** | **Apple iOS** | [**AOSP**][aosp] | **Win** | **macOS** | **Linux** | **BSD** | **Terminal** | [**MDM**][mdm] | [**Offline Messages**][offline_messages] | **File Share** | **Audio Call** | **Video Call** | [**Phoneless**][phoneless] | [**Decentralized or Federated**][decentralized] | **Open Spec** | [**IETF**][ietf] | **Introduced** |
 | [Riot/Matrix](https://matrix.org/) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | [✗](https://github.com/vector-im/riot-web/issues/6779) | [✓](https://www.nccgroup.trust/us/our-research/matrix-olm-cryptographic-review/) | [✗](https://github.com/vector-im/riot-web/issues/2772) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | [½](https://github.com/torhve/weechat-matrix-protocol-script/issues/124) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | [✗](https://matrix.org/docs/guides/faq.html#why-aren't-you-doing-this-through-the-ietf%3F-or-w3c%3F-or-3gpp%3F) | 2014 |
 | [XMPP](https://xmpp.org/) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ½ | [✓](http://conversations.im/omemo/audit.pdf) | ✗ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 1999 |
 | [NextCloud Talk](https://nextcloud.com/talk/) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ | 2018 |
@@ -91,7 +91,17 @@ This will be updated with new services as they come out.
 - ½ = partial support
 - ! = claimed
 
-## Notes
+<!-- Footnotes -->
 
-[active]: The creators of the app/protocol are continuing development/support of it.
-For Open Source projects: has had a commit in the last year.
+[active]: /url "The creators of the app/protocol are continuing development/support of it.
+For Open Source projects: has had a commit in the last year."
+[anonymous]: /url "If a phone number or other permanent-ish identifier is required for using the platform"
+[e2e_default]: /url "Are all chats end-to-end encrypted by default?"
+[e2e_audit]: /url "Has there been a third party audit on the overall end to end encryption protocol by a well known security research firm or academic institution."
+[aosp]: /url "This means there is an open source signed package available to a package manager that works on phones without Google Play. E.G. a reproducible F-Droid release."
+[mdm]: /url "Multi-device messaging: More than one device can be directly connected to a given account at the same time"
+[offline_messages]: /url "If the receiving party does not have the client open; can you send them a message?"
+[phoneless]: /url "Do you need an actual phone to use the software? e.g. do you need to receive an SMS to sign up?"
+[decentralized]: /url "Multiple people can run their own servers and communicate between them. E-mail is an example of a federated network where gmail users can communicate with fastmail users"
+[ietf]: /url "Is the protocol documented in a published IETF or other international standards body document?
+Usually this column is: Does an RFC exist for the protocol"
